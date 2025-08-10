@@ -10,6 +10,7 @@ import fitz  # PyMuPDF
 import os
 import requests
 from bs4 import BeautifulSoup
+from docx import Document as DocxDocument
 
 # 🔐 Load environment variables
 load_dotenv()
@@ -63,7 +64,7 @@ if uploaded_files:
 
         # 📝 Word document
         elif file_type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
-            from docx import Document as DocxDocument
+            #from docx import Document as DocxDocument
             docx_file = DocxDocument(uploaded_file)
             text = "\n".join([para.text for para in docx_file.paragraphs])
 
@@ -108,3 +109,4 @@ if query:
 
     st.markdown("### ✨ Gemini's Response")
     st.write(response.text)
+
