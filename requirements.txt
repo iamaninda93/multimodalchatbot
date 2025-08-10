@@ -3,7 +3,9 @@ google-generativeai
 langchain
 langchain-community
 langchain-google-genai
-faiss-cpu
 python-dotenv
 PyMuPDF
 Pillow
+docx
+requests
+beautifulsoup4
