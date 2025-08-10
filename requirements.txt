@@ -4,7 +4,6 @@ langchain
 langchain-community
 langchain-google-genai
 faiss-cpu
-faiss-gpu
 python-dotenv
 PyMuPDF
 Pillow
