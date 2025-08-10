@@ -7,6 +7,6 @@ faiss-cpu
 python-dotenv
 PyMuPDF
 Pillow
-docx
+python-docx
 requests
 beautifulsoup4
